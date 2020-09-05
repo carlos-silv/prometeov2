@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{font-family: 'Montserrat', sans-serif;}
+html{
+    overflow-x: hidden;
+}
+body header .color{
+    background: rgba(0, 0, 0,.7);
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+    top: 10px;
+    
+}
+body header .container img{
+    width: 12%;
+    position: absolute;
+    z-index: 9;
+    bottom: -30%;
+}
+#emblemas img{
+    bottom: 9px;
+    right: 358px;
+    width: 31px;
+}
+#compras img{
+    width: 32px;
+    right: 317px;
+    top: 18px;
+}
+#usuario img{
+    width: 34px;
+    right: 277px;
+    top: 18px;
+
+}
+
+body header{
+    position: relative;
+}
+body header::before{
+    content: "";
+    position: absolute;
+    width: 44%;
+    height: 149%;
+    background: url(../img/triangulo1.png);
+    z-index: 8;
+    right: 0%;
+    top: -28%;
+    background-repeat: no-repeat;
+    z-index: 5;
+    background-size: cover;
+ }
+ body header::after{
+    content: "";
+    position: absolute;
+    left: 0%;
+    top: 24%;
+    width: 23%;
+    height: 80%;
+    background: url(../img/triangulo2.png);
+    z-index: 8;
+    
+   
+ }
+#navbarNav{
+    justify-content: center;
+}
+body header .container .collapse .navbar-nav .nav-item a{
+    color: #ffffff;
+    padding: 10px;
+    
+}
+body header .container .collapse .navbar-nav .nav-item:hover{
+    background: #cd6728;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+#emblemas{
+    background: url(../img/emblemas.png)no-repeat;
+    width: 50px;
+    height: 100%;
+    margin: 0 auto;
+   
+}
+#compras{
+    background: url(../img/compras.png)no-repeat;
+    width: 50px;
+    height: 100%;
+    margin: 0 auto;
+   
+}
+#usuario{
+    background: url(../img/usuario.png)no-repeat;
+    width: 50px;
+    height: 100%;
+    margin: 0 auto;
+}
+body header .container .collapse .navbar-nav .caro{
+    margin-left: 70px;
+}
+body header .carousel-inner .carousel-item h5{
+    margin-bottom: 100px;
+    
+}
+body header .carousel-inner .carousel-item button{
+    background: none;
+    border: 3px solid orangered;
+    border-radius: 9px;
+    font-size: 20px;
+    color: orangered;
+    padding: 5px;
+    margin-bottom: 310px;
+}
+body header #carouseCaptions .carousel-indicators li{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 150px ;
+    padding: 1px;
+    margin-left: 15px;
+
+}
+.section-1{
+    padding-bottom: 50px;
+}
+body .section-1 .container h2{
+    font-size: 50px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+body .section-1 .container h5 {
+    font-size: 25px;
+    margin-bottom: 50px;
+
+}
+body .section-1 .container p{
+    font-size: 12px;
+}
+body .section-1 .container #comprar{
+   color: #ddaf4c;
+
+}
+body .section-1 .container #vender{
+    color: #cd6728;
+}
+body .section-1 .container p{
+    font-size: 18px;
+    margin-top: 113px;
+    text-align: center;
+}
+body section{
+    position: relative;
+
+}
+body .section-1::before{
+    content:"";
+    width: 100%;
+    height: 7px;
+    position: absolute;
+    z-index: 10;
+    background: black;
+    top: 60px;
+}
+body .section-1 .container .row{
+   margin-left: 60px;
+}
+body .section-2 .contenido{
+  position: relative;
+}
+body .section-2 .contenido::before{
+    content: "";
+    width: 65%;
+    height: 100%;
+    background:url(../img/trinagulo3.png);
+    position: absolute;
+    left: 0%;
+}
+body .section-2 .contenido .container h2{
+    position: absolute;
+    bottom: 80%;
+    color: black;
+    font-size: 200%;
+}
+body .section-2 .contenido .container p{
+    position: absolute;
+    bottom: 40%;
+    color: black;
+    width: 50%;
+    font-size: 110%;
+
+}
+body .section-2 .contenido img{
+    width: 100%;
+}
+.section-3{
+    margin-top: 50px;
+}
+.section-3 .nav-tabs .moda{
+    background: url(../img/mt1.jpg) no-repeat;
+
+}
+.section-3 .nav-tabs .campo{
+    background: url(../img/mt2.jpg)no-repeat;
+}
+.section-3 .nav-tabs .tecnologia{
+    background: url(../img/mt3.jpg)no-repeat;
+
+}
+.section-3 .nav-tabs .nav-item .nav-link{
+    width: 182px;
+    height: 121px;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 20%;
+    border-radius: 12px;
+    margin-left: 30px;
+    margin-top: 90px;
+    font-size: 20px;
+}
+.section-4{
+    position: relative;
+    margin-top: 50px;
+    background: #ddaf4c;
+    padding-bottom:88px ;
+
+}
+.section-4::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: black;
+    bottom: 1020px;
+}
+.section-4 .container h2{
+    font-size: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+    
+}
+.section-4 .container p{
+    font-size: 19px;
+    text-align: center;
+    margin-top: 50px;
+}
+.section-4 .row{
+    text-align: center;
+}
+#prometeo {
+    margin: 90px 40px;
+}
+#app img{
+    margin-top: 46px;
+}
+.prometeo{
+    position: relative;
+    margin-top: 50px;
+}
+.prometeo::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: black;
+    margin-top: 175px;
+}
+header .modal-content{
+    background:rgba(0, 0, 0,.7);
+    text-align: center;
+    width: 445px;
+    color: #ffffff  ;
+    margin-top: 70px;
+    margin-left: 164px;
+}
+header .ventana .modal-dialog .modal-content .modal-footer .btn-primary{
+    background: #ddaf4c;
+}
+header .ventana .modal-dialog .modal-content .modal-body{
+    padding-left: 90px;
+
+}
+#logim{
+    position: absolute;
+    z-index: 80;
+    right: -332px;
+    top: 310px;
+    position: fixed;
+}
+#logim .botoon{
+    cursor: pointer;
+    transform: rotate(-90deg);
+    border: none;
+    background: rgba(0, 0, 0,.7);
+    margin-right: 50px;
+    border-radius: 7px;
+  
+}
+#logim img{
+    width: 79px;
+    margin: 5px;
+}
+#logim.usua{
+    position: absolute;
+    z-index: 80;
+    transform: translatex(-351px);
+    top: 310px;
+    position: fixed;
+    transition: 0.7s;
+    background: rgba(0, 0, 0,.7);
+    padding: 20px;
+}
+footer .row{
+    flex-wrap: nowrap;
+}
+#foter{
+    flex-wrap: wrap;
+}
+
+/* respocive tablet */
+@media screen and (max-width: 800px) and (min-width: 220px){
+    html{
+        overflow-x: hidden;
+    }
+    body header .container img{
+        width: 14%;
+        position: absolute;
+        z-index: 9;
+        bottom: -40%;
+    }
+
+    #logim{
+        display: none;
+    }
+    body .section-1 .container h2 {
+        font-size: 245%;
+    }
+    body .section-1 .container h5{
+        font-size: 136%;
+    }
+    body .section-1 .container p{
+        font-size: 82%;
+        width: 323px;
+        margin-bottom: 45px;
+    }
+    body .section-2 .contenido .container p {
+        
+    font-size: 54%;
+    top: 33%;
+    }
+    body .section-2 .contenido .container h2 {
+        top: 5%;
+
+    }
+    #spam{
+        right: 52%;
+        top: -2%;
+        width: 6%;
+    }
+    
+    }
+   
+
+
+
+}

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prometeo</title>
+    <link rel="icon" href="img/iconotitle.png">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css" integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styls.css">
+</head>
+<body>
+    <header>
+      <div class="logim" id="logim">
+        <div class="row">
+          <div class="col-md-3"><button class="botoon" onclick="usuafunchion()"><img src="img/logo.png " alt=""></button></div>
+          <div class="col-md-9">
+            <form>
+              <div class="form-group">
+                <label for="navInputEmail1">Usuario</label>
+                <input type="email" class="form-control" id="pInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Aqui tu nombre de usuario</small>
+              </div>
+              <div class="form-group">
+                <label for="pInputPassword1">Password</label>
+                <input type="password" class="form-control" id="pInputPassword1">
+              </div>
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="pCheck1">
+                <label class="form-check-label" for="pCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Empesemos</button>
+            </form>
+
+          </div>
+        </div>
+        
+       
+      </div>
+      
+      <nav class="navbar navbar-expand-lg color">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" alt="LOGO"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img id="spam" src="img/c.png" alt="">
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#ofertas">Ofertas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contactenos</a>
+              </li>
+              <li class="nav-item caro">
+                <a class="nav-link " id="emblemas" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " id="compras" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " id="usuario" href="#"></a>
+              </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+       <div id="carouseCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouseCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouseCaptions" data-slide-to="1"></li>
+          <li data-target="#carouseCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/img1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>El precio del éxito es trabajar duro por eso en Prometeo 
+                trabajamos duro para que compres y vendas sin intermediarios
+                                        y las ganancias sean tuyas</h5>
+                                        
+              <Button>Empesemos <b>>>> </b></Button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/img2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Aquí tus productos tendrán el valor que merecen  </h5>
+              <Button>Empesemos <b>>>> </b></Button>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/productos_frutasyverduras-774x510.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>En Prometeo ayudamos a la comercialización de productos agrícolas </h5>
+              <Button>Empesemos <b>>>> </b></Button>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouseCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouseCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        <div class="ventana" >
+          <div class="modal" tabindex="-1" id="ventana-modal">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Que estas buscando</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <form class="form-inline">
+                    <div class="form-group mb-2">
+                      <label for="staticEmail2" class="sr-only">Email</label>
+                     
+                    </div>
+                    <div class="form-group mx-sm-3 mb-2">
+                      <label for="inputPassword2" class="sr-only">Te espero</label>
+                      <input type="text" class="form-control" id="inputPassword2" placeholder="Aqui lo que buscas">
+                    </div>
+                    
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="submit" class="btn btn-primary mb-2">Buscar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+  
+    </header>
+    <section class="section-1" id="servicios">
+      <div class="container">
+        <h2>Servicios</h2>
+        <h5>Puedes escoger entre <b id="comprar">comprar</b> o <b id="vender">vender</b>.</h5>
+        <div class="row">
+          <div class="col-md-4" data-aos="fade-right" data-aos-duration="2000" >
+            <img src="img/Sin título-2.png" alt="comprador">
+          </div>
+          <br>
+          <div class="col-md-8" data-aos="fade-left" data-aos-duration="2000">
+            <p>Acá en Prometeo puedes ofrecer tus productos directamente a los clientes.  </p>
+          </div>
+        </div>
+        <div class="row"  >
+          <div class="col-md-8" data-aos="fade-right" data-aos-duration="2000" >
+            <p>Todo lo que siempre as querido esta mas cerca y a precio más razonable. <br>
+              Prometeo ayuda a tener contacto directo con los proveedores.
+              </p>
+          </div>
+          <div class="col-md-4" data-aos="fade-left" data-aos-duration="2000"  >
+            <img src="img/Sin título-1.png" alt="vendedor">
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-2" id="ubicar">
+      <div class="contenido">
+        <img src="img/google.png" alt="mapa">
+        <div class="container">
+          <h2>Ubicar</h2>
+          <p>Cansado de no saber un donde encontrar tus productos Prometeo te da la ubicación de los productos y proveedores más cercanos</p>
+
+        </div>
+
+      </div>  
+
+    </section>
+    <section class="section-3" id="ofertas">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="moda" role="tabpanel" aria-labelledby="moda-tab">
+                <div id="carousel-moda" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/m1.jpg" class="d-block w-100" alt="moda">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/m2.jpg" class="d-block w-100" alt="moda">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/m3.jpg" class="d-block w-100" alt="moda">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-moda" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-moda" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="campo-tab">
+                <div id="carousel-campo" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/c1.jpg" class="d-block w-100" alt="campo">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/c2.jpg" class="d-block w-100" alt="campo">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/c3.jpg" class="d-block w-100" alt="campo">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-campo" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-campo" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <div id="carousel-tecnologia" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/t1.jpg" class="d-block w-100" alt="tecno">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/t2.jpg" class="d-block w-100" alt="tecno">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/t3.jpg" class="d-block w-100" alt="tecno">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carousel-tecnologia" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carousel-tecnologia" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+          <div class="col-md-3">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation" data-aos="fade-down" data-aos-duration="3000">
+                <a class="nav-link active moda" id="moda-tab" data-toggle="tab" href="#moda" role="tab" aria-controls="home" aria-selected="true">Moda</a>
+              </li>
+              <li class="nav-item" role="presentation"data-aos="fade-left" data-aos-duration="3000" >
+                <a class="nav-link campo" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Campo</a>
+              </li>
+              <li class="nav-item" role="presentation" data-aos="fade-up" data-aos-duration="3000">
+                <a class="nav-link tecnologia" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Tecnologia</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-4" id="nosotros">
+      <div class="container">
+        <h2>Nosotros</h2>
+        <p>Somos una empresa que busca permitir una interacción directa entre cliente  y proveedor la cual elimine los intermediarios para que las ganancias queden entre los clientes y vendedores</p>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="item-nosotros">
+            <img src="img/icono1.png" alt="andrea">
+           <b>
+             <p>Jully Andrea Rosero</p>
+             <p>3114010815</p>
+             <p>rosero.rl1997@gmail.com</p>
+           </b>
+          </div>
+        </div>
+          <div class="col-md-4">
+            <div class="item-nosotros">
+              <img src="img/icono2.png" alt="carlos">
+              <b>
+               <p>Carlos Alberto Silva </p>
+               <p>3118043435</p>
+               <p>crsilv1995@gmail.com</p>
+              </b>
+            </div>
+          </div>
+         <div class="col-md-4">
+          <img src="img/icono2.png" alt="luis">
+          <div class="item-nosotros">
+            <b>
+              <p> Luis Fabian Pinilla</p>
+              <p>3133333636</p>
+              <p>ingefbi@gmail.com</p>
+            </b>
+          </div>
+         </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/icono2.png" alt="luis">
+          <div class="item-nosotros">
+            <b>
+              <p> Arturo Martinez </p>
+              <p> 3212013159</p>
+              <p>arturomartinez.1344@gmail.com</p>
+            </b>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/icono2.png" alt="luis">
+          <div class="item-nosotros">
+            <b>
+              <p> Leider Ivan Mengura</p>
+              <p>3222628859</p>
+              <p>leidermengura75@gmaiul.com</p>
+            </b>                                       
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <footer class="prometeo" id="footer">
+      <div class="container">
+        <div class="row" id="foter">
+          <div class="col-md-6">
+            <div class="row">
+              <div class="cold-md-6" id="prometeo">
+                <a href="">Trabaja con nosotros</a>
+              </div>
+              <br>
+              <div class="cold-md-6" id="prometeo">
+                <a href="">Términos y condiciones</a>
+              </div>
+            </difv>
+          </div>
+          <div class="col-md-6" id="app">
+            <a href=""><img src="img/footer.png" alt="footer"></a>
+            <div class="row">
+              <div class="col-md-3" id="face">
+                <a href=""><img src="img/face.png" alt="face"></a>
+              </div>
+              <div class="col-md-3">
+                <a href=""><img src="img/tuiter.png" alt="face"></a>
+              </div>
+              <div class="col-md-3">
+                <a href=""><img src="img/youtube.png" alt="face"></a>
+              </div>
+              <div class="col-md-3">
+                <a href=""><img src="img/istagram.png" alt="face"></a>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+    </footer>
+    
+ 
+   
+   
+
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/menus.js"></script>  
+</body>
+</html>
